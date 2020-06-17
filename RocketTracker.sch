@@ -736,7 +736,7 @@ F 3 "~" H 9900 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP27P06 Q3
+L RocketTracker-rescue:FQP27P06-dk_Transistors-FETs-MOSFETs-Single Q3
 U 1 1 5EA3C4BC
 P 9000 2650
 F 0 "Q3" H 9107 2597 60  0000 L CNN
@@ -881,7 +881,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2150 5450 2150
 $Comp
-L ConnectorCustom:I2C_CONN J5
+L RocketTracker-rescue:I2C_CONN-ConnectorCustom J5
 U 1 1 5EB19821
 P 4750 6700
 F 0 "J5" H 4778 6876 50  0000 L CNN
@@ -949,7 +949,7 @@ Connection ~ 4500 7150
 Wire Wire Line
 	4500 7150 4550 7150
 $Comp
-L ConnectorCustom:I2C_CONN J8
+L RocketTracker-rescue:I2C_CONN-ConnectorCustom J8
 U 1 1 5EB1C8B6
 P 4750 7450
 F 0 "J8" H 4778 7626 50  0000 L CNN
@@ -1021,7 +1021,7 @@ Connection ~ 5900 7150
 Wire Wire Line
 	5900 7150 5950 7150
 $Comp
-L ConnectorCustom:I2C_CONN J9
+L RocketTracker-rescue:I2C_CONN-ConnectorCustom J9
 U 1 1 5EB28A43
 P 6150 7450
 F 0 "J9" H 6178 7626 50  0000 L CNN
@@ -1074,7 +1074,7 @@ Wire Wire Line
 NoConn ~ 2350 2200
 NoConn ~ 2350 2300
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP27P06 Q1
+L RocketTracker-rescue:FQP27P06-dk_Transistors-FETs-MOSFETs-Single Q1
 U 1 1 5E9EA243
 P 9000 1050
 F 0 "Q1" H 9107 997 60  0000 L CNN
